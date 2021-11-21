@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*************************
+    header section
+**************************/
+.header-section {
+    width: 100%;
+    padding: 25px 0px 80px;
+    background-color: #b6c0c9;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-section .header-left{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.header-section .header-right{
+    width: 60%;
+    float: right;
+}
+.header-section .header-right ul{
+    float: right;
+    text-align: right;
+}
+.header-section .header-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header-section .header-right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 25px;
+    border: 2px solid transparent;
+}
+.header-section .header-right ul li a:hover{
+    border-bottom: 2px solid #6e0de9;
+}
+/*************************
+    banner section
+**************************/
+.banner-section{
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner{
+    padding: 20px 0px;
+}
+.banner-section .banner-left h1{
+    color: azure;
+    font-size: 50px;
+}
+.banner-section .banner-left p{
+    color: #b6c0c9;
+    font-size: 25px;
+}
+.banner-section .banner-left .more-btn{
+   padding: 20px;
+   background-color:red;
+   color: floralwhite;
+   border: none;
+}
+.banner-section .banner-left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.banner-section .banner-right{
+    width: 50%;
+    float: left;
+}
+
+/*************************
+    about section
+**************************/
+.about-section{
+    width: 100%;
+}
+.about-section h2{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.about-section h3{
+   margin-top: 50px;
+    font-size: 50px;    
+}
+/*************************
+    footer section
+**************************/
+.footer-section{
+    width: 100%;
+    background: red;
+    font-size: 30px;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
